@@ -13,9 +13,11 @@
   ![terminal-loc](imgs/terminal-loc.png)
 
   Alternatively, you can type in ```cd``` for the Command Prompt or ```pwd``` for Terminal, and it should tell you where you are as well.
+
 2. On GitHub, go to your repository and click **Clone or download**. Then, click on the **clipboard symbol** to copy the url shown.
 
   ![clone](imgs/clone.png)
+
 3. In the Command Prompt/Terminal, type in the command ```git clone``` followed by the url you copied. This'll put a copy of your GitHub files on your computer.  (ADD PIC FOR COMMAND PROMPT)
 
   ![git-clone](imgs/git-clone.png)
@@ -29,7 +31,7 @@
 
   ![long-nav](imgs/cd-long-nav.png)
 
-  Or, you can type it in all in one line like this:
+  Or, you can type it in all in one line like this, with forward slashes separating each folder:
 
   ![short-nav](imgs/cd-short-nav.png)
 
