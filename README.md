@@ -61,19 +61,19 @@ Basically, if you make changes to the same file in two different places (like on
 
 **So, here's how you fix it!**
 
-1. Use this command to pull in your GitHub code onto your computer: ```git pull --rebase origin master```
+1. Use this command to **pull in your GitHub code** onto your computer: ```git pull --rebase origin master```
 
   It should tell you there's a ```CONFLICT``` and gives you some tips as to how to proceed:
 
   ![conflict](imgs/conflict.png)
 
-2. Open up the files that are in conflict (in this case, it was an html file I had), and manually change it so that it looks like how you want it to.
+2. **Open up the files that are in conflict** (in this case, it was an html file I had) on your computer, and manually change it so that it looks like how you want it to.
 
-3. Add your changes: ```git add .```
+3. **Add** your changes: ```git add .```
 
-4. Continue the pulling process: ```git rebase --continue```
+4. **Continue** the pulling process: ```git rebase --continue```
 
-5. Finally, push up all your changes to GitHub: ```git push```
+5. Finally, **push** up all your changes to GitHub: ```git push```
 
 This is what the Command Prompt/Terminal should look like when everything's all fixed:
 
